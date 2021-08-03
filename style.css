@@ -1,4 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(228, 221, 235);
+}
+
+li {
+  display: inline;
+  margin: 15px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(167, 98, 231);
+}
+
+input {
+  border-color: rgb(167, 98, 231);
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(167, 98, 231);
+  padding-left: 20px;
+}
+
+p {
+  display: inline;
+  font-size: 11px;
+  margin: 0;
+  padding-left: 50px;
+  color: rgb(167, 98, 231);
+}
+
 h1 {
-    text-align: center;
-    color: rgb(255, 0, 191);
-  }
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(167, 98, 231);
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(167, 98, 231);
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  background: rgb(167, 98, 231);
+}
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(167, 98, 231);
+  font-size: 11px;
+  text-align: center;
+}
+
+.main-temp {
+  text-align: left;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.units {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 80px;
+  margin: 0;
+  top: -70 px;
+}
+
+.main-img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.temp {
+  font-size: 12px;
+  margin: 0;
+  padding-left: 50px;
+  color: rgb(167, 98, 231);
+}
+
+.button-search {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.button-search:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  background: rgb(167, 98, 231);
+}
+
+.button-current {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.button-current:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  background: rgb(167, 98, 231);
+}
+
+::placeholder {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(167, 98, 231);
+}
+
+.card-body .input {
+  display: block;
+  width: 80%;
+  background: rgb(189, 149, 226);
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: rgb(167, 98, 231);
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.week-img {
+  display: inline;
+  width: 20%;
+  margin: 0px;
+}
+
+#c.hover {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  text-emphasis: bold;
+}
