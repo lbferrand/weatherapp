@@ -113,11 +113,7 @@ footer {
   background: rgb(167, 98, 231);
 }
 
-a {
-  font-size: 10px;
-  display: block;
-  text-align: center;
-}
+
 
 ::placeholder {
   font-size: 14px;
@@ -154,4 +150,10 @@ a {
   cursor: pointer;
   transition: all 200ms ease-in-out;
   text-emphasis: bold;
+}
+
+.source {
+  font-size: 12px;
+  display: block;
+  text-align: center;
 }
